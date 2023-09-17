@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Russo+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Russo One', sans-serif; */
+
+.main {
+    height: 100vh;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    padding: 0 9%;
+    align-items: center;
+}
+
+.form {
+    padding: 20px 0px;
+    max-width: 380px;
+    border: 2px solid #38A0FF;
+    border-radius: 16px;
+    background: linear-gradient(0.25turn, #38A0FF80, #2F007B80, #53318780);
+    box-shadow: 0px 4px 20px #38A0FF;
+    text-align: center;
+   position: relative;
+
+}
+
+.form::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #00000080;
+    z-index: 1;
+    border-radius: 16px;
+
+}
+
+.form__content{
+    position: inherit;
+    z-index: 2;
+    padding: 0 22.5px;
+}
+
+.form__content-title {
+    color: #ffffff;
+    font-family: 'Russo One', sans-serif;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.form__content-title span {
+    color: #38A0FF;
+}
+
+.form__content-subtitle {
+    color: #3DFF82;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.form__telegram-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    padding: 12px 24px;
+    background-color: #38A0FF;
+    display: inline-block;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.form__download-links {
+    position: inherit;
+    z-index: 2;
+
+}
+
+.form__download-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #38A0FF;
+}
+
+.form__download-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+margin-bottom: 16px;
+}
+
+.form__app-links{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 24px;
+}

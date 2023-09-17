@@ -1,0 +1,35 @@
+@media (max-width: 480px) {
+    .main {
+        padding: 0 8%;
+        background-position: 63%;
+    }
+    .form__app-links {
+        flex-direction: column;
+    }
+
+    .form__app-links a:nth-child(1) {
+        margin-bottom: 12px;
+    }
+
+    .form__telegram-link {
+        padding: 14px 17px;
+    }
+}
+
+
+@media (max-width: 360px) {
+
+    .form__content-title {
+        font-size: 20px;
+    }
+
+    .form__content-subtitle {
+        font-size: 14px;
+    }
+
+    .form__telegram-link {
+        font-size: 16px;
+    }
+
+   
+}
